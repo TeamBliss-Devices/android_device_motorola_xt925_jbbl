@@ -35,7 +35,7 @@ $(call inherit-product, device/motorola/msm8960_jbbl-common/msm8960.mk)
 # xt925 specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Nfc
