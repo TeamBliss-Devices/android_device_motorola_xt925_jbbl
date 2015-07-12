@@ -20,6 +20,9 @@ TARGET_VENDOR_DEVICE_NAME := vanquish_u
 
 $(call inherit-product, device/motorola/xt925_jbbl/full_xt925.mk)
 
+#Bliss Viper Audio Mod
+BLISS_AUDIO_MOD := viper
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=XT925_retbr/vanquish_u:4.1.2/9.8.2Q-50-XT925_VQLM-26/1380067192:user/release-keys \
     PRIVATE_BUILD_DESC="XT925_retbr-user 4.1.2 9.8.2Q-50-XT925_VQLM-26 1380067192 release-keys"
